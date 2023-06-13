@@ -25,4 +25,8 @@ export class AppComponent {
   ngOnInit() {
     console.log(this.form.value);
   }
+
+  submit() {
+    console.log(this.form.value);
+  }
 }
